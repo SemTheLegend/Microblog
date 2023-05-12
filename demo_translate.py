@@ -1,7 +1,7 @@
 import requests, uuid, json, os
 
 # Add your key and endpoint
-key =  os.environ.get('MY_TRANSLATOR_KEY') #"5c011bd01d9d472886a3f430deca8f13"
+key =  os.environ.get('MY_TRANSLATOR_KEY')
 endpoint = "https://api.cognitive.microsofttranslator.com"
 
 # location, also known as region.
